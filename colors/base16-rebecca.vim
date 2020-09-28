@@ -29,25 +29,17 @@ let s:purple = '7aa5ff'
 let s:window = '666699'
 let s:grey = '666699'
 let s:lcs = 'a0a0c5'
+let s:diff_red = '663333'
+let s:diff_green = '336633'
+let s:diff_yellow = '666633'
+let s:diff_aqua = '333366'
 
+set background=dark
 hi clear
 if exists('syntax_on')
     syntax reset
 endif
 let g:colors_name = 'base16-rebecca'
-if g:colors_name =~ '.*-light$'
-    set background=dark
-    let s:diff_red = 'ffaaaa'
-    let s:diff_green = 'bbffbb'
-    let s:diff_yellow = 'ffffaa'
-    let s:diff_aqua = 'bbeeff'
-else
-    set background=dark
-    let s:diff_red = '663333'
-    let s:diff_green = '336633'
-    let s:diff_yellow = '666633'
-    let s:diff_aqua = '333366'
-endif
 
 if exists('g:gitgutter_disable_sign_background') && g:gitgutter_disable_sign_background
     let s:gitgutter_red = s:background
