@@ -58,6 +58,6 @@ The vim color schemes is gnerate by `builder.php`, to regenerate them, you need 
 
 ```sh
 composer install
-php builder.php fetch
+php builder.php update
 php builder.php
 ```
