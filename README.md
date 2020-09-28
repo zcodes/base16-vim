@@ -54,7 +54,7 @@ let g:gitgutter_disable_sign_background = 1
 
 ## generate themes
 
-The vim color schemes is gnerate by `builder.php`, the regenerate theme, you need `php` and `composer`.
+The vim color schemes is gnerate by `builder.php`, to regenerate them, you need `php` and `composer`.
 
 ```sh
 composer install
