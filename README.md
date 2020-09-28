@@ -29,7 +29,7 @@ colorscheme base16-3024
 Add the following line to your '~/.vimrc' and run `PluginInstall` in Vim.
 
 ```vim
-Plugin 'zcodes/base16-vim'
+Plugin 'zcodes/vim-base16'
 ```
 
 ## vim-plug
@@ -37,7 +37,7 @@ Plugin 'zcodes/base16-vim'
 Add the following line to your '~/.vimrc' and run `PlugInstall` in Vim.
 
 ```vim
-Plug 'zcodes/base16-vim'
+Plug 'zcodes/vim-base16'
 ```
 
 # More
