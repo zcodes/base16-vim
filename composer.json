@@ -1,6 +1,6 @@
 {
     "require": {
-        "symfony/yaml": "^2.7",
+        "symfony/yaml": "^6.3",
         "mustache/mustache": "^2.9",
         "mexitek/phpcolors": "^0.4.0"
     },

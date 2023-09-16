@@ -61,7 +61,7 @@ switch (@$argv[1]) {
     default:
         if (count($sch_list) == 0) {
             echo "Warning: Could not parse schemes or missing "
-                . "$schemes_list, did you do `php ${argv[0]} update`?\n";
+                . "$schemes_list, did you do `php {$argv[0]} update`?\n";
         }
 
         $rendered_templates = [];
