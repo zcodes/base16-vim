@@ -270,8 +270,8 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('SpecialKey', s:blue, '', 'none')
     call <SID>X('Search', s:foreground, s:selection, 'none')
     call <SID>X('TabLine', s:foreground, s:background, 'reverse')
-    call <SID>X('StatusLine', s:window, s:foreground, 'reverse')
-    call <SID>X('StatusLineNC', s:window, s:comment, 'reverse')
+    call <SID>X('StatusLine', s:foreground, s:line, 'none')
+    call <SID>X('StatusLineNC', s:comment, s:background, 'none')
     call <SID>X('VertSplit', s:window, s:window, 'none')
     call <SID>X('Visual', '', s:selection, 'none')
     call <SID>X('Directory', s:blue, '', 'none')
@@ -282,6 +282,7 @@ if has('gui_running') || &t_Co == 88 || &t_Co == 256
     call <SID>X('MatchParen', '', s:selection, 'none')
     call <SID>X('Folded', s:comment, s:background, 'none')
     call <SID>X('FoldColumn', s:comment, s:background, 'none')
+    call <SID>X('WildMenu', s:green, s:background, 'none')
     if v:version >= 700
         call <SID>X('CursorLine', '', s:line, 'none')
         call <SID>X('CursorColumn', '', s:line, 'none')
